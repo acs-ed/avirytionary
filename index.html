@@ -94,6 +94,19 @@
 
 </center>	
 <hr>
+
+<script>
+  let x = 100;
+  function larger()  { x *= 1.2; document.body.style.fontSize = x + '%'; }
+  function smaller() { x /= 1.2; document.body.style.fontSize = x + '%'; }
+</script>
+
+<div>
+  <button type="button" onclick="smaller()">小さく</button>
+  <button type="button" onclick="larger()">大きく</button>
+</div>
+
+
 <span><font size="6" face="sans-serif"><b>今日の単語</font></b>
 	</span><br>
 <b>
